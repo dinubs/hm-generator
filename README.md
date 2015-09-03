@@ -9,7 +9,8 @@ npm install -g hm-generator
 Create a project using
 
 ```
-hm new
+$ hm  new
+
 What is the app name? your app name
 Describe the app:  An app that serves a specific function.
 ```
@@ -17,18 +18,18 @@ Describe the app:  An app that serves a specific function.
 It will prompt you for an App Name and an App Description. These will be set in globals.js in the project root directory. The project directory is the same as the App Name with spaces replaced as dashes.
 
 ```
-cd your-app-name
+$ cd your-app-name
 ```
 
 ```
 // To start your project server and open your browser to http://localhost:3000
-hm start
+$ hm start
 
 // This can also be done with 
-hm launch
+$ hm launch
 
 // and
-hm serve
+$ hm serve
 ```
 
 ### Todo
