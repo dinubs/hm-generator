@@ -1,5 +1,4 @@
 # HM Stack Project Generator
----
 
 ```
 npm install -g hm-generator
