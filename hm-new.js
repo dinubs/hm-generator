@@ -8,9 +8,8 @@ program
   .parse(process.argv);
 
 var dir = process.cwd() + '/';
-console.log(dir);
 
-function writeConfigs(config) {
+function writeConfigs(config, appDir) {
   fs.writeJson(appDir + 'config.json', config, function(err) {
     if (err) console.log(err);
     var pkg = require(appDir + 'package.json');
@@ -32,7 +31,7 @@ function copy(result) {
       'app_description': result.description
     }
     var appDir = dir + result.name + '/';
-    writeConfigs(config);
+    writeConfigs(config, appDir);
   });
 }
 

@@ -10,6 +10,8 @@ Create a project using
 
 ```
 hm new
+What is the app name? your app name
+Describe the app:  An app that serves a specific function.
 ```
 
 It will prompt you for an App Name and an App Description. These will be set in globals.js in the project root directory. The project directory is the same as the App Name with spaces replaced as dashes.
@@ -36,3 +38,4 @@ hm serve
 - Add in generator for controllers
 - Add in generator for routes
 - Add in generator for scaffold (models, controllers, routes all in one)
+- Add tests
