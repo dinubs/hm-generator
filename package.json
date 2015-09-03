@@ -1,0 +1,21 @@
+{
+  "name": "hm-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./hm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gavin Dinubilo",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "fs-extra": "^0.24.0",
+    "open": "0.0.5",
+    "prompt": "^0.2.14"
+  },
+  "bin": {
+    "hm": "./hm.js"
+  },
+  "preferGlobal": "true"
+}
