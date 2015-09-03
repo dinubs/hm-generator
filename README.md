@@ -1,4 +1,6 @@
-# HM Stack Project Generator
+# hm Project Generator
+
+Hapi.js and MongoDB Project Generator
 
 ```
 npm install -g hm-generator
