@@ -19,7 +19,7 @@ function writeConfigs(config) {
     fs.writeJson(appDir + 'package.json', pkg, function(err) {
       if (err) console.log(err);
       console.log('Application can be found at ' + appDir);
-      console.log('To get started enter the directory and run "hm start".');
+      console.log('To get started cd into the directory and run "hm start".');
     });
   });
 }
