@@ -36,7 +36,7 @@ function copy(result) {
   });
 }
 
-function prompt() {
+function startPrompt() {
   prompt.message = '';
   prompt.delimiter = ''
  
@@ -57,4 +57,4 @@ function prompt() {
   });
 }
 
-prompt();
+startPrompt();
